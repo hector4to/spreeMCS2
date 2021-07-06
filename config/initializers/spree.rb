@@ -10,12 +10,6 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 Spree.config do |config|
-  # Switch storefront logo
-  config.logo = 'micos-logo.svg'
-  # Switch admin logo 
-  config.admin_interface_logo = 'micos-logo.svg' 
-  # hide Spree version number 
-  config.admin_show_version = false 
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
@@ -34,4 +28,4 @@ end
 
 # Spree::Api::Dependencies.storefront_cart_serializer = 'MyRailsApp::CartSerializer'
 
-Spree.user_class = "Spree::LegacyUser"
+Spree.user_class = "Spree::User"

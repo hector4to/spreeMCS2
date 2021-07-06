@@ -13,7 +13,7 @@ threads min_threads_count, max_threads_count
 #
 worker_timeout 3600 if ENV.fetch("RAILS_ENV", "development") == "development"
 
-set_default_host '192.168.1.203' # Note: Must come BEFORE defining the port
+set_default_host '192.168.1.60' # Note: Must come BEFORE defining the port
 
 # Specifies the `port` that Puma will listen on to receive requests; default is 3000.
 #
