@@ -1,21 +1,11 @@
 default:
   navigation:
-    - title: Women
+    - title: Chiles
       subtitle: Categories
-      url: /t/women
+      url: /t/categories/chiles
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Chiles
+          :url: /t/categories/chiles
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
@@ -25,18 +15,16 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Men
+    - title: Salsas
       subtitle: Categories
-      url: /t/men
+      url: /t/categories/salsas
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Salsas
+          :url: /t/categories/salsas
+        - :title: Adobos
+          :url: /t/categories/adobos
+        - :title: Sazonadores
+          :url: /t/categories/sazonadores
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
@@ -46,16 +34,12 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
+    - title: Dulces
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/categories/dulces
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Dulces
+          :url: /t/categories/dulces
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
@@ -65,10 +49,72 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Botanas
+      subtitle: Categories
+      url: /t/categories/botanas
+      items:
+        - :title: Botanas
+          :url: /t/categories/botanas
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Especias
+      subtitle: Categories
+      url: /t/categories/especias
+      items:
+        - :title: Especias
+          :url: /t/categories/especias
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: Variedad
+      subtitle: Categories
+      url: /t/categories/variedad
+      items:
+        - :title: Variedad
+          :url: /t/categories/variedad
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    
+    - title: Juguetes
+      subtitle: Categories
+      url: /t/categories/juguetes
+      items:
+        - :title: Juguetes
+          :url: /t/categories/juguetes
+      promo_banners:
+        - subtitle: New collection
+          title: Summer 2021
+          url: /t/new-collection/summer-2021
+          image: 'meganav/promo_banner_left-third-category.jpg'
+        - subtitle: Special Offers
+          title: Get up to 30% off
+          url: /t/special-offers/30-percent-off
+          image: 'meganav/promo_banner_right-third-category.jpg'
+    
 fr:
   navigation:
     - title: Femmes
-      url: /fr/t/women
+      url: /fr/t/Categories
       promo_banners:
         - subtitle: Nouvelle collection
           title: Été 2021
@@ -78,7 +124,7 @@ fr:
           url: /fr/t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-first-category.jpg'
     - title: Hommes
-      url: /fr/t/men
+      url: /fr/t/categories
       promo_banners:
         - subtitle: Nouvelle collection
           title: Été 2021
@@ -87,8 +133,8 @@ fr:
         - subtitle: Offres spéciales
           url: /fr/t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Vêtements de sport
-      url: /fr/t/sportswear
+    - title: Vêtecategoriests de sport
+      url: /fr/t/categories
       promo_banners:
         - subtitle: Nouvelle collection
           title: Été 2021
