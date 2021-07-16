@@ -7,14 +7,14 @@ default:
         - :title: Chiles
           :url: /t/categories/chiles
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-first-category.jpg'
+        - subtitle: Chiles
+          title: Chiles
+          url: /t/categories/chiles
+          image: 'meganav/ChilesSecos.jpg'
+        - subtitle: Mi Costenita
+          title: Productos
+          url: /t/Categories/
+          image: 'meganav/dulces_3.jpg'
     - title: Salsas
       subtitle: Categories
       url: /t/categories/salsas
