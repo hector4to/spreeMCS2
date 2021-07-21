@@ -2,16 +2,16 @@
 
 <div class="homepage-hero-image mb-3 position-relative">
   <img class="lazyload hero-image position-absolute"
-    data-src="<%= asset_path('homepage/main_banner.jpg') %>"
-    data-srcset="<%= image_source_set('homepage/main_banner') %>"
-    alt="Summer Collection">
+    data-src="<%= asset_path('homepage/img_secos_banner.jpg') %>"
+    data-srcset="<%= image_source_set('homepage/img_secos_banner') %>"
+    alt="Chiles">
 
   <div class="hero-content">
     <div class="homepage-hero-image-text mb-2 mx-auto pb-3 pb-md-4">
-      Summer Collection
+      Chiles
     </div>
     <div>
-      <%= link_to 'SHOP NOW', spree.products_path, class: 'btn btn-primary spree-btn px-5' %>
+      <%= link_to 'Compra', spree.products_path, class: 'btn btn-primary spree-btn px-5' %>
     </div>
   </div>
 </div>
@@ -20,25 +20,25 @@
   <div class="row">
     <div class="col-6">
 
-      <%= link_to spree.nested_taxons_path('men'), class: "homepage-taxon-box mb-3" do %>
+      <%= link_to spree.nested_taxons_path('categories/dulces'), class: "homepage-taxon-box mb-3" do %>
         <img class="w-100 lazyload"
-          data-src="<%= asset_path('homepage/category_banner_upper.jpg') %>"
-          data-srcset="<%= image_source_set('homepage/category_banner_upper') %>"
-          alt="Men">
+          data-src="<%= asset_path('homepage/dulces_C_baner.jpg') %>"
+          data-srcset="<%= image_source_set('homepage/dulces_C_baner') %>"
+          alt="Dulces">
 
         <div class="homepage-taxon-box-text">
-          <h3>Men</h3>
+          <h3>Dulces</h3>
         </div>
       <% end %>
 
-      <%= link_to spree.nested_taxons_path('sportswear'), class: "homepage-taxon-box" do %>
+      <%= link_to spree.nested_taxons_path('categories/botanas'), class: "homepage-taxon-box" do %>
         <img class="w-100 lazyload"
-          data-src="<%= asset_path('homepage/category_banner_lower.jpg') %>"
-          data-srcset="<%= image_source_set('homepage/category_banner_lower') %>"
-          alt="Sportswear">
+          data-src="<%= asset_path('homepage/botanas_C_baner.jpg') %>"
+          data-srcset="<%= image_source_set('homepage/botanas_C_baner') %>"
+          alt="Botanas">
 
-        <div class="homepage-taxon-box-text" role="img" aria-label="Sportswear">
-          <h3>Sportswear</h3>
+        <div class="homepage-taxon-box-text" role="img" aria-label="Botanas">
+          <h3>Botanas</h3>
         </div>
       <% end %>
 
@@ -46,14 +46,14 @@
 
     <div class="col-6 d-flex flex-column">
 
-      <%= link_to spree.nested_taxons_path('women'), class: "homepage-taxon-box flex-grow-1" do %>
+      <%= link_to spree.nested_taxons_path('categories/salsas'), class: "homepage-taxon-box flex-grow-1" do %>
         <img class="w-100 lazyload"
-          data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
-          data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
-          alt="Women">
+          data-src="<%= asset_path('homepage/salsas_big_C_banner.jpg') %>"
+          data-srcset="<%= image_source_set('homepage/salsas_big_C_banner') %>"
+          alt="Salsas Yola">
 
         <div class="homepage-taxon-box-text">
-          <h3>Women</h3>
+          <h3>Salsas Yola</h3>
         </div>
       <% end %>
 
@@ -79,19 +79,19 @@
 <div class="container">
   <div class="row">
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path('streetstyle') do %>
+      <%= link_to spree.nested_taxons_path('categories/salsas') do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
-            data-src="<%= asset_path('homepage/promo_banner_left.jpg') %>"
-            data-srcset="<%= image_source_set('homepage/promo_banner_left') %>"
-            alt="NEW COLLECTION">
+            data-src="<%= asset_path('homepage/salsas_banner.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/salsas_banner') %>"
+            alt="Salsas Yola">
 
-          <div class="homepage-bottom-box-inner" role="img" aria-label="New Collection">
+          <div class="homepage-bottom-box-inner" role="img" aria-label="Salsas Yola">
             <div class="homepage-bottom-box-inner-small-text">
-              New Collection
+              Salsas Yola
             </div>
             <div class="homepage-bottom-box-inner-big-text">
-              Streetstyle
+              Salsas
             </div>
           </div>
         </div>
@@ -99,19 +99,19 @@
     </div>
 
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path('summer-sale') do %>
+      <%= link_to spree.nested_taxons_path('categories/especias') do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
-            data-src="<%= asset_path('homepage/promo_banner_right.jpg') %>"
-            data-srcset="<%= image_source_set('homepage/promo_banner_right') %>"
-            alt="Summer Sale">
+            data-src="<%= asset_path('homepage/especias.jpg') %>"
+            data-srcset="<%= image_source_set('homepage/especias') %>"
+            alt="Especias">
 
           <div class="homepage-bottom-box-inner">
             <div class="homepage-bottom-box-inner-small-text">
-              Summer Sale
+              Especias
             </div>
             <div class="homepage-bottom-box-inner-big-text">
-              Up To 60%
+              Especias
             </div>
           </div>
         </div>

@@ -26,14 +26,18 @@ default:
         - :title: Sazonadores
           :url: /t/categories/sazonadores
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-second-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-second-category.jpg'
+        - subtitle: Salsas Yola
+          title: Salsas
+          url: /t/categories/salsas
+          image: 'meganav/salsas_banner_tablet_portrait.jpg'
+        - subtitle: Adobos
+          title: Adobos
+          url: /t/categories/adobos
+          image: 'meganav/adobo-2.jpg'
+        - subtitle: Sazonadores
+          title: Sazonadores
+          url: /t/categories/sazonadores
+          image: 'meganav/sazonador.jpg'
     - title: Dulces
       subtitle: Categories
       url: /t/categories/dulces
@@ -41,14 +45,11 @@ default:
         - :title: Dulces
           :url: /t/categories/dulces
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Dulces
+          title: Dulces
+          url: /t/categories/dulces
+          image: 'meganav/dulces_2.jpg'
+        
     - title: Botanas
       subtitle: Categories
       url: /t/categories/botanas
@@ -56,14 +57,11 @@ default:
         - :title: Botanas
           :url: /t/categories/botanas
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Botanas
+          title: Botanas
+          url: /t/categories/botanas
+          image: 'meganav/RicasBotanas.jpg'
+        
     - title: Especias
       subtitle: Categories
       url: /t/categories/especias
@@ -71,14 +69,11 @@ default:
         - :title: Especias
           :url: /t/categories/especias
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Especias
+          title: Especias
+          url: /t/categories/especias
+          image: 'meganav/Especias.jpg'
+        
     - title: Variedad
       subtitle: Categories
       url: /t/categories/variedad
@@ -86,14 +81,11 @@ default:
         - :title: Variedad
           :url: /t/categories/variedad
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Variedad
+          title: Variedad
+          url: /t/categories/variedad
+          image: 'meganav/Variedad.jpg'
+        
     
     - title: Juguetes
       subtitle: Categories
@@ -102,14 +94,11 @@ default:
         - :title: Juguetes
           :url: /t/categories/juguetes
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - subtitle: Juguetes
+          title: Juguetes
+          url: /t/categories/juguetes
+          image: 'meganav/img_juguetes_2.jpg'
+        
     
 fr:
   navigation:
@@ -121,7 +110,7 @@ fr:
           url: /fr/t/new-collection/summer-2021
           image: 'meganav/promo_banner_left-first-category.jpg'
         - subtitle: Offres spéciales
-          url: /fr/t/special-offers/30-percent-off
+          url: /fr/t/categories/30-percent-off
           image: 'meganav/promo_banner_right-first-category.jpg'
     - title: Hommes
       url: /fr/t/categories
@@ -131,7 +120,7 @@ fr:
           url: /fr/t/new-collection/summer-2021
           image: 'meganav/promo_banner_left-second-category.jpg'
         - subtitle: Offres spéciales
-          url: /fr/t/special-offers/30-percent-off
+          url: /fr/t/categories/30-percent-off
           image: 'meganav/promo_banner_right-second-category.jpg'
     - title: Vêtecategoriests de sport
       url: /fr/t/categories
@@ -141,5 +130,5 @@ fr:
           url: /fr/t/new-collection/summer-2021
           image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Offres spéciales
-          url: /fr/t/special-offers/30-percent-off
+          url: /fr/t/categories/30-percent-off
           image: 'meganav/promo_banner_right-third-category.jpg'
