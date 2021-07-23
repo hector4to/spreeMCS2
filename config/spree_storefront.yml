@@ -10,7 +10,7 @@ default:
         - subtitle: Chiles
           title: Chiles
           url: /t/categories/chiles
-          image: 'meganav/ChilesSecos.jpg'
+          image: 'meganav/Chiles-2.jpg'
         - subtitle: Mi Costenita
           title: Productos
           url: /t/Categories/
@@ -29,7 +29,7 @@ default:
         - subtitle: Salsas Yola
           title: Salsas
           url: /t/categories/salsas
-          image: 'meganav/salsas_banner_tablet_portrait.jpg'
+          image: 'meganav/Salsas-2.jpg'
         - subtitle: Adobos
           title: Adobos
           url: /t/categories/adobos
@@ -48,7 +48,7 @@ default:
         - subtitle: Dulces
           title: Dulces
           url: /t/categories/dulces
-          image: 'meganav/dulces_2.jpg'
+          image: 'meganav/Dulces-2.jpg'
         
     - title: Botanas
       subtitle: Categories
@@ -60,7 +60,7 @@ default:
         - subtitle: Botanas
           title: Botanas
           url: /t/categories/botanas
-          image: 'meganav/RicasBotanas.jpg'
+          image: 'meganav/Botanas-1.jpg'
         
     - title: Especias
       subtitle: Categories
@@ -72,7 +72,7 @@ default:
         - subtitle: Especias
           title: Especias
           url: /t/categories/especias
-          image: 'meganav/Especias.jpg'
+          image: 'meganav/Especias-1.jpg'
         
     - title: Variedad
       subtitle: Categories
@@ -97,7 +97,7 @@ default:
         - subtitle: Juguetes
           title: Juguetes
           url: /t/categories/juguetes
-          image: 'meganav/img_juguetes_2.jpg'
+          image: 'meganav/Jugetes-2.jpg'
         
     
 fr:
